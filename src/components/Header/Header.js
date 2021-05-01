@@ -8,7 +8,7 @@ const Header = () => {
         <div className="header" style={{ width : '100%'}}>
             <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
                 <Container>
-                    <Navbar.Brand>Niaz Murshed Siam</Navbar.Brand>
+                    <Navbar.Brand style ={{color:'gray'}}>Niaz Murshed Siam</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                     <Navbar.Collapse className=" justify-content-end font-weight-bold" id="responsive-navbar-nav">
                   
