@@ -22,7 +22,7 @@ import project9 from '../../../images/projects/project9.png';
 import L_REACT from "../../../images/skills/react.svg";
 import L_NODE_JS from "../../../images/skills/nodejs.svg";
 import L_EXPRESS from "../../../images/skills/express.svg";
-import L_POSTGRESQL from "../../../images/skills/postgresql.svg";
+import L_JAVASCRPT from "../../../images/skills/javascript.svg";
 import L_MONGODB from "../../../images/skills/mongodb.svg";
 import L_REDUX from "../../../images/skills/redux.svg";
 import L_HTML5 from "../../../images/skills/html-5.svg";
@@ -216,8 +216,8 @@ const MyProjects = () => {
                                 <li>
                                     <span className="p-2">
                                     <Image
-                                        src=""
-                                        alt=""
+                                        src={L_JAVASCRPT}
+                                        alt="JavaScript"
                                         rounded
                                         className="image-style1 m-1"
                                     ></Image>{" "}
@@ -323,8 +323,8 @@ const MyProjects = () => {
                                 <li>
                                     <span className="p-2">
                                     <Image
-                                        src=""
-                                        alt=""
+                                        src={L_JAVASCRPT}
+                                        alt="JavaScript"
                                         rounded
                                         className="image-style1 m-1"
                                     ></Image>{" "}
@@ -540,8 +540,8 @@ const MyProjects = () => {
                                 <li>
                                     <span className="p-2">
                                     <Image
-                                        src=""
-                                        alt=""
+                                        src={L_JAVASCRPT}
+                                        alt="JavaScript"
                                         rounded
                                         className="image-style m-1"
                                     ></Image>{" "}
@@ -643,8 +643,8 @@ const MyProjects = () => {
                                 <li>
                                     <span className="p-2">
                                     <Image
-                                        src=""
-                                        alt=""
+                                        src={L_JAVASCRPT}
+                                        alt="JavaScript"
                                         rounded
                                         className="image-style1 m-1"
                                     ></Image>{" "}

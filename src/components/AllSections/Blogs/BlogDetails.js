@@ -59,13 +59,13 @@ const BlogDetails = () => {
                     {
 
                            blogs.map((blog, idx )=> 
-                            <Card style={{width : '200px'}} className="d-flex align-items-center justify-content-between  bg-white rounded">
+                            <Card style={{width : '200px'}} className="d-flex align-items-center justify-content-between  bg-white rounded m-2 p-2">
  
 
                                 <Card.Img style={{height : '200px', width : '90%'}} className="card-image mt-4 rounded" variant="top" src={blog.image} />
                                 <Card.Body>
                                         <h4 style={{ color : '#17B995'}} className="mt-4 text-left">{blog.title}</h4>
-                                        <hr style={{width : '20%', marginLeft: '0px', backgroundColor : '#d1c398', height : '2px'}}/>
+                                        <hr style={{width : '20%', marginLeft: '2px', backgroundColor : '#d1c398', height : '2px'}}/>
                                         <Button variant="outline-success d-block" className="text-center"><a href={blog.links}>View Details</a></Button>                                      
                                     </Card.Body>
                             </Card>

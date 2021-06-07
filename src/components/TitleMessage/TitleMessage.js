@@ -12,7 +12,7 @@ const TitleMessage = () => {
                 <div className="titleMessage">
                 <div className="heading">
                     <div className="main text-center ">
-                    Hello, I am
+                    <strong>Hello, I am</strong>
                     <br />
                     <span>
                         <strong>Niaz Murshed Siam</strong>
@@ -27,7 +27,7 @@ const TitleMessage = () => {
                         delay: 50
                         }}
                     /> */}
-                    <ReactRotatingText style={{fontSize:'20px'}}  items={['Full Stack Web Engineer', 'MERN Stack', 'React Developer', 'Node JS Developer']} />
+                    <ReactRotatingText style={{fontSize:'20px'}}  items={['Full Stack Developer', 'MERN Stack', 'React Developer', 'Node JS Developer']} />
                     </div>
                 </div>
                 </div>
